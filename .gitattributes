@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+chroma_db_catalog/** filter=lfs diff=lfs merge=lfs -text
+chroma_db_clause/** filter=lfs diff=lfs merge=lfs -text
